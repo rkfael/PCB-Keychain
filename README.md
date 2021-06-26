@@ -27,3 +27,5 @@ equações definidas pelo escocês James Clerk Maxwell.
 Em 1861, Maxwell estabeleceu a relação entre o campo elétrico e o campo
 magnético e desta forma consolidou a teoria eletromagnética em quatro equações
 conforme visto na figura 1.
+
+![Figura 1](https://github.com/rkfael/assets/Figura 1 - Equações de Maxwell na Forma Diferencial.png)
