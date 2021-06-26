@@ -1,8 +1,15 @@
-# Chaveiro em Placa de Circuito Impresso (Artigo)
+<h1 align="center">
+  Chaveiro em Placa de Circuito Impresso
+</h1>
 
-Autor: Rafael Marcelo Walter
+<h2 align="center">
+  Autor: Rafael Marcelo Walter
+</h2>
 
-Data: Junho de 2021
+<h3 align="center">
+  Data: Junho de 2021
+</h3>
+
 
 Você já pensou em projetar placas de circuito impresso e fazer delas um objeto
 decorativo? Pois bem, projetar placas de circuito impresso pode ir além de apenas
