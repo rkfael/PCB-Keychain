@@ -1,15 +1,8 @@
-<h1 align="center">
-  Chaveiro em Placa de Circuito Impresso
-</h1>
+<h1 align="center"> Chaveiro em Placa de Circuito Impresso </h1>
 
-<h2 align="center">
-  Autor: Rafael Marcelo Walter
-</h2>
+<h2 align="center"> Autor: Rafael Marcelo Walter </h2>
 
-<h3 align="center">
-  Data: Junho de 2021
-</h3>
-
+<h3 align="center"> Data: Junho de 2021 </h3>
 
 Você já pensou em projetar placas de circuito impresso e fazer delas um objeto
 decorativo? Pois bem, projetar placas de circuito impresso pode ir além de apenas
@@ -53,10 +46,12 @@ projeto de PCB com um acabamento diferenciado.
 ### 1º Passo (Novo Projeto)
 
 Inicie um novo projeto no software. Se você ainda não tem um perfil criado no
-site, basta acessar o link <https://easyeda.com/> e se cadastrar.
+site, basta acessar o link <https://easyeda.com> e se cadastrar.
 Como neste projeto não possuímos um diagrama esquemático, podemos partir
 direto para a definição das linhas de borda da placa, que são chamadas de Board
 Outline. Na figura 2 é possível verificar as dimensões definidas para esta placa.
 
+**Figura 2 – Board Outline**
 
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/70a554f7ab283c6486256716ab29f77f475dbe5a/assets/Figura%202%20-%20Board%20Outline.png)
 
