@@ -28,4 +28,4 @@ Em 1861, Maxwell estabeleceu a relação entre o campo elétrico e o campo
 magnético e desta forma consolidou a teoria eletromagnética em quatro equações
 conforme visto na figura 1.
 
-![Figura 1](https://github.com/rkfael/assets/Figura 1 - Equações de Maxwell na Forma Diferencial.png)
+!.[Figura 1].(https://github.com/rkfael/PCB-Keychain/blob/5b45afcad0c7e0e6136c3f95e369ea3652f798f0/assets/Figura%201%20-%20Equa%C3%A7%C3%B5es%20de%20Maxwell%20na%20Forma%20Diferencial.png)
