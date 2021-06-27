@@ -55,3 +55,9 @@ Outline. Na figura 2 é possível verificar as dimensões definidas para esta pl
 
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/70a554f7ab283c6486256716ab29f77f475dbe5a/assets/Figura%202%20-%20Board%20Outline.png)
 
+Com base em outros chaveiros que já fabriquei, essas foram as dimensões que
+mais me agradaram. Vale ressaltar uma dica bem legal: note que considerei um raio
+de 1,4mm nas bordas da placa. Este detalhe é muito importante para o projeto, pois
+caso não seja considerado, os cantos pontiagudos irão lhe causar um certo
+desconforto quando estiver com o chaveiro no bolso de sua calça. Na figura 3 temos
+as linhas de borda já definidas.
