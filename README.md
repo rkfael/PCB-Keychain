@@ -197,7 +197,7 @@ importantes como: espessura, comprimento, definição do layer, etc.
 Obs.: caso queira desenhar as trilhas na face inferior da placa, utilize
 BottomLayer.
 
-- 4º Passo (Definição dos Layers)
+## 4º Passo (Definição dos Layers)
 
 Saber escolher e definir os layers em seu projeto é muito importante. Nos meus
 primeiros projetos de PCBs, com o conhecimento limitado, eu fazia pequenos detalhes
@@ -217,12 +217,74 @@ inserido.
 Nos itens a seguir, irei descrever brevemente qual a função dos layers
 utilizados no projeto desta placa.
 
-- TopLayer: Utilizado para impressões sólidas (acabamento cobreado) na
+- *TopLayer*: Utilizado para impressões sólidas (acabamento cobreado) na
 face superior da placa. Exemplo: trilhas, logomarcas e malha de
 aterramento.
 
-- BottomLayer: Utilizado para impressões sólidas (acabamento cobreado) na
+- *BottomLayer*: Utilizado para impressões sólidas (acabamento cobreado) na
 face inferior da placa. Exemplo: Idem TopLayer.
+
+- *TopSilkLayer*: É a serigrafia ou pintura na face superior da placa. Exemplo:
+Identificação dos componentes, textos e imagens em geral.
+
+- *BottomSilkLayer*: É a serigrafia ou pintura na face inferior da placa.
+Exemplo: Idem TopSilkLayer.
+
+- *TopSolderMaskLayer*: Remove o acabamento em verniz, na face superior
+da placa, deixando a placa “crua” à mostra. Observação: caso inserido
+sobreposto ao TopLayer, como resultado, deixará o cobre estanhado
+exposto. Exemplo: pontos de conexões para slots, área de cobre exposta
+para permitir o contato com dissipadores de calor, acabamento da região
+prateada.
+
+- *BottomSolderMaskLayer*: Remove o acabamento em verniz, na face inferior
+da placa, deixando a placa “crua” à mostra. Observação: caso inserido
+sobreposto ao BottomLayer, como resultado, deixará o cobre estanhado
+exposto. Exemplo: Idem TopSolderMaskLayer.
+
+- *BoardOutLine*: Define a linha de corte da placa. Dica: Facilmente podem ser
+criadas geometrias retangulares ou circulares para a linha de corte da placa.
+Caso queira um formato diferente, opte em fazer o desenho da linha de corte
+no AutoCad e salve o arquivo no formato .DXF, após, importe o arquivo no
+EasyEDA.
+
+## 5º Passo (Apresentação 2D)
+
+Para chegar até aqui, descrevi os principais passos a serem seguidos, poderia
+os detalhar ainda mais, mas não quero que este artigo se estenda muito tornando-o
+uma leitura pesada.
+
+A qualquer momento é possível gerar uma visualização 2D ou 3D de como seu
+projeto está ficando, assim, você vai fazendo os ajustes necessários.
+
+Neste momento, gostaria de apresentar o projeto do chaveiro finalizado
+mostrando as duas faces da placa (TopLayer e BottomLayer). Na figura 15 e 16
+apresento a face superior e inferior da placa respectivamente.
+
+**Figura 15 – TopLayer**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2015%20-%20Top%20Layer.png)
+
+**Figura 16 – BottomLayer**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2016%20-%20Bottom%20Layer.png)
+
+## Acesso ao Projeto
+
+Disponibilizei o projeto para que você possa gerar os arquivos de fabricação,
+esclarecer eventuais dúvidas e editá-los conforme sua preferência. Confira acessando
+o link <https://easyeda.com/rkfael/maxwell_equations_keychain_artigo>
+
+## Fabricação das Placas (JLCPCB)
+
+A *JLCPCB* fornece um serviço de excelente qualidade e baixo custo para a
+fabricação das placas. Confira acessando o link <https://jlcpcb.com/IRG>
+
+## Meu Perfil nas Redes Sociais
+
+Finalizando este artigo, gostaria de apresentar meu perfil no Instagram
+(@notas_eletronicas). Aproveite para ver mais algumas das minhas ideias deste tipo
+de arte feitas em placas de circuito impresso, e claro, não deixe de seguir meu perfil.
 
 
 
