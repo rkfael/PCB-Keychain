@@ -30,26 +30,26 @@ dos chaveiros em circuito impresso, não me aprofundarei no tema, mas sim no
 desenvolvimento da placa, pois isso possibilitará o conhecimento necessário para que
 cada um crie a arte que desejar.
 
-Então vamos começar a projetar o nosso chaveiro. O software que mais tenho
-familiaridade para o desenvolvimento de PCBs é o *EasyEDA*, por isso ele foi o
+Então vamos começar a projetar o nosso chaveiro. O *software* que mais tenho
+familiaridade para o desenvolvimento de *PCBs* é o *EasyEDA*, por isso ele foi o
 escolhido para trabalharmos neste projeto. Conheci o software em uma vídeo aula no
 canal *WR Kits* no *YouTube*. Gosto dele por ser fácil de utilizá-lo, também não há
 necessidade de instalação em seu computador, pode-se utilizar apenas a plataforma
 online para criar e armazenar seus projetos.
 
-## Iniciando o projeto da PCB no *EasyEDA*
+## Iniciando o projeto da *PCB* no *EasyEDA*
 
 Nesta etapa vou explicar os principais passos para o desenvolvimento deste
 projeto e também quero mostrar algumas dicas bem legais para você deixar o seu
-projeto de PCB com um acabamento diferenciado.
+projeto de *PCB* com um acabamento diferenciado.
 
 ### 1º Passo (Novo Projeto)
 
 Inicie um novo projeto no software. Se você ainda não tem um perfil criado no
-site, basta acessar o link <https://easyeda.com> e se cadastrar.
+site, basta acessar o *link* <https://easyeda.com> e se cadastrar.
 Como neste projeto não possuímos um diagrama esquemático, podemos partir
-direto para a definição das linhas de borda da placa, que são chamadas de Board
-Outline. Na figura 2 é possível verificar as dimensões definidas para esta placa.
+direto para a definição das linhas de borda da placa, que são chamadas de *Board
+Outline*. Na figura 2 é possível verificar as dimensões definidas para esta placa.
 
 **Figura 2 – Board Outline**
 
@@ -67,7 +67,7 @@ as linhas de borda já definidas.
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%203%20-%20Board%20Outline%20Definida.png)
 
 Conforme visto na figura 3, observe os cantos arredondados da placa e note
-também que mudei a configuração padrão do software para utilizar unidades de
+também que mudei a configuração padrão do *software* para utilizar unidades de
 medida em milímetros (mm). Para a espessura da placa, considere 1.6mm.
 
 ### 2º Passo (Adicionando Furos)
@@ -81,10 +81,10 @@ vermelho na figura 4.
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%204%20-%20PCB%20Tools.png)
 
 Conforme indicado na figura 4, os furos também podem ser adicionados
-clicando na ferramenta Hole, destacada em verde, porém, prefiro adicionar usando
+clicando na ferramenta *Hole*, destacada em verde, porém, prefiro adicionar usando
 pontos de conexões (destaque em vermelho), dessa forma a furação terá um
 acabamento metalizado e caso queira, você pode definir o ponto de conexão como
-sendo o GND (malha de aterramento) da placa.
+sendo o *GND* (malha de aterramento) da placa.
 
 Agora que você inseriu um furo na placa, precisamos definir algumas
 propriedades para essa furação, bem como: diâmetro interno, diâmetro externo e as
@@ -121,9 +121,9 @@ Você pode adicionar diversos formatos de imagem para o seu projeto, porém,
 gosto de utilizar arquivos com o formato .PNG e de preferência que sejam de boa
 resolução. Se você quiser adicionar outras imagens, carregadas com muitos detalhes,
 possivelmente haverá a necessidade de edição destas. Quando necessário, gosto
-muito de utilizar o software Paint para fazer alguns ajustes, pois me atende muito bem.
+muito de utilizar o *software Paint* para fazer alguns ajustes, pois me atende muito bem.
 
-Vamos adicionar a primeira imagem à PCB. A figura 7 indica a primeira equação
+Vamos adicionar a primeira imagem à *PCB*. A figura 7 indica a primeira equação
 de Maxwell a ser adicionada.
 
 **Figura 7 – Lei de Gauss do Magnetismo**
@@ -165,8 +165,8 @@ texto conforme figura 11.
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2011%20-%20Propriedades%20de%20Texto.png)
 
 Na figura 11 destaquei as principais propriedades que necessitamos configurar.
-No destaque em vermelho será definido em qual layer o texto será gravado, nesse
-caso, TopLayer indica que a gravação será feita na face superior da placa e o material
+No destaque em vermelho será definido em qual *layer* o texto será gravado, nesse
+caso, *TopLayer* indica que a gravação será feita na face superior da placa e o material
 será o cobre (mesmo formato de impressão das trilhas). Explicarei isso adiante. No
 destaque em verde é feito o ajuste do tamanho e espessura da fonte. 
 
@@ -191,30 +191,30 @@ adicionadas ao desenho.
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2013%20-%20Linhas%20de%20Contorno.png)
 
 Conforme visto na figura 13, as trilhas estão adicionadas na face superior da
-placa (TopLayer). Lembre-se que é possível acessar as propriedades e fazer ajustes
-importantes como: espessura, comprimento, definição do layer, etc.
+placa (*TopLayer*). Lembre-se que é possível acessar as propriedades e fazer ajustes
+importantes como: espessura, comprimento, definição do *layer*, etc.
 
 Obs.: caso queira desenhar as trilhas na face inferior da placa, utilize
-BottomLayer.
+*BottomLayer*.
 
 ## 4º Passo (Definição dos Layers)
 
-Saber escolher e definir os layers em seu projeto é muito importante. Nos meus
-primeiros projetos de PCBs, com o conhecimento limitado, eu fazia pequenos detalhes
-tentando utilizar layers diferentes, assim ao receber a placa era possível verificar na
-prática o que cada layer resultava no projeto. Na figura 14 é possível visualizar os
-layers para seleção.
+Saber escolher e definir os *layers* em seu projeto é muito importante. Nos meus
+primeiros projetos de *PCBs*, com o conhecimento limitado, eu fazia pequenos detalhes
+tentando utilizar *layers* diferentes, assim ao receber a placa era possível verificar na
+prática o que cada *layer* resultava no projeto. Na figura 14 é possível visualizar os
+*layers* para seleção.
 
 **Figura 14 – Layers**
 
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2014%20-%20Layers.png)
 
 
-A seleção dos layers (camadas) é feita conforme apresentado na caixa de
+A seleção dos *layers* (camadas) é feita conforme apresentado na caixa de
 seleção da figura 14. Para acessá-la selecione as propriedades de cada objeto
 inserido.
 
-Nos itens a seguir, irei descrever brevemente qual a função dos layers
+Nos itens a seguir, irei descrever brevemente qual a função dos *layers*
 utilizados no projeto desta placa.
 
 - *TopLayer*: Utilizado para impressões sólidas (acabamento cobreado) na
@@ -222,31 +222,31 @@ face superior da placa. Exemplo: trilhas, logomarcas e malha de
 aterramento.
 
 - *BottomLayer*: Utilizado para impressões sólidas (acabamento cobreado) na
-face inferior da placa. Exemplo: Idem TopLayer.
+face inferior da placa. Exemplo: Idem *TopLayer*.
 
 - *TopSilkLayer*: É a serigrafia ou pintura na face superior da placa. Exemplo:
 Identificação dos componentes, textos e imagens em geral.
 
 - *BottomSilkLayer*: É a serigrafia ou pintura na face inferior da placa.
-Exemplo: Idem TopSilkLayer.
+Exemplo: Idem *TopSilkLayer*.
 
 - *TopSolderMaskLayer*: Remove o acabamento em verniz, na face superior
 da placa, deixando a placa “crua” à mostra. Observação: caso inserido
-sobreposto ao TopLayer, como resultado, deixará o cobre estanhado
-exposto. Exemplo: pontos de conexões para slots, área de cobre exposta
+sobreposto ao *TopLayer*, como resultado, deixará o cobre estanhado
+exposto. Exemplo: pontos de conexões para *slots*, área de cobre exposta
 para permitir o contato com dissipadores de calor, acabamento da região
 prateada.
 
 - *BottomSolderMaskLayer*: Remove o acabamento em verniz, na face inferior
 da placa, deixando a placa “crua” à mostra. Observação: caso inserido
-sobreposto ao BottomLayer, como resultado, deixará o cobre estanhado
-exposto. Exemplo: Idem TopSolderMaskLayer.
+sobreposto ao *BottomLayer*, como resultado, deixará o cobre estanhado
+exposto. Exemplo: Idem *TopSolderMaskLayer*.
 
 - *BoardOutLine*: Define a linha de corte da placa. Dica: Facilmente podem ser
 criadas geometrias retangulares ou circulares para a linha de corte da placa.
 Caso queira um formato diferente, opte em fazer o desenho da linha de corte
-no AutoCad e salve o arquivo no formato .DXF, após, importe o arquivo no
-EasyEDA.
+no *AutoCad* e salve o arquivo no formato .DXF, após, importe o arquivo no
+*EasyEDA*.
 
 ## 5º Passo (Apresentação 2D)
 
@@ -258,7 +258,7 @@ A qualquer momento é possível gerar uma visualização 2D ou 3D de como seu
 projeto está ficando, assim, você vai fazendo os ajustes necessários.
 
 Neste momento, gostaria de apresentar o projeto do chaveiro finalizado
-mostrando as duas faces da placa (TopLayer e BottomLayer). Na figura 15 e 16
+mostrando as duas faces da placa (*TopLayer* e *BottomLayer*). Na figura 15 e 16
 apresento a face superior e inferior da placa respectivamente.
 
 **Figura 15 – TopLayer**
@@ -273,16 +273,16 @@ apresento a face superior e inferior da placa respectivamente.
 
 Disponibilizei o projeto para que você possa gerar os arquivos de fabricação,
 esclarecer eventuais dúvidas e editá-los conforme sua preferência. Confira acessando
-o link <https://easyeda.com/rkfael/maxwell_equations_keychain_artigo>
+o *link* <https://easyeda.com/rkfael/maxwell_equations_keychain_artigo>
 
-## Fabricação das Placas (JLCPCB)
+## Fabricação das Placas (*JLCPCB*)
 
 A *JLCPCB* fornece um serviço de excelente qualidade e baixo custo para a
-fabricação das placas. Confira acessando o link <https://jlcpcb.com/IRG>
+fabricação das placas. Confira acessando o *link* <https://jlcpcb.com/IRG>
 
 ## Meu Perfil nas Redes Sociais
 
-Finalizando este artigo, gostaria de apresentar meu perfil no Instagram
+Finalizando este artigo, gostaria de apresentar meu perfil no *Instagram*
 (@notas_eletronicas). Aproveite para ver mais algumas das minhas ideias deste tipo
 de arte feitas em placas de circuito impresso, e claro, não deixe de seguir meu perfil.
 
