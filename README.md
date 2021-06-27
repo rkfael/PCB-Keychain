@@ -61,3 +61,35 @@ de 1,4mm nas bordas da placa. Este detalhe é muito importante para o projeto, p
 caso não seja considerado, os cantos pontiagudos irão lhe causar um certo
 desconforto quando estiver com o chaveiro no bolso de sua calça. Na figura 3 temos
 as linhas de borda já definidas.
+
+**Figura 3 – Board Outline Definida**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%203%20-%20Board%20Outline%20Definida.png)
+
+Conforme visto na figura 3, observe os cantos arredondados da placa e note
+também que mudei a configuração padrão do software para utilizar unidades de
+medida em milímetros (mm). Para a espessura da placa, considere 1.6mm.
+
+### 2º Passo (Adicionando Furos)
+
+Adicione um furo na placa para prender a correntinha do seu chaveiro. Para
+adicionar, você pode usar a tecla de atalho (p) ou clicar na ferramenta destacada em
+vermelho na figura 4.
+
+**Figura 4 – PCB Tools**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%204%20-%20PCB%20Tools.png)
+
+Conforme indicado na figura 4, os furos também podem ser adicionados
+clicando na ferramenta Hole, destacada em verde, porém, prefiro adicionar usando
+pontos de conexões (destaque em vermelho), dessa forma a furação terá um
+acabamento metalizado e caso queira, você pode definir o ponto de conexão como
+sendo o GND (malha de aterramento) da placa.
+Agora que você inseriu um furo na placa, precisamos definir algumas
+propriedades para essa furação, bem como: diâmetro interno, diâmetro externo e as
+coordenadas X e Y. Na figura 5 podem ser observadas as propriedades consideradas
+para o furo da placa.
+
+**Figura 5 – Pad Properties**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%205%20-%20Pad%20Properties.png)
