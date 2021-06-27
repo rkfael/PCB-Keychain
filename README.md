@@ -142,6 +142,8 @@ figura 9.
 
 **Figura 9 – Inserir Imagem**
 
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%209%20-%20Inserir%20Imagem.png)
+
 Destaquei na figura 9 os ajustes que serão necessários configurar para cada
 imagem inserida. Note que em vermelho são as dimensões e em verde são os ajustes
 de contorno e acabamento.
@@ -178,6 +180,49 @@ Na figura 12 apresento duas ferramentas que você poderá utilizar.
 
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2012%20-%20Inserir%20Trilhas.png)
 
+A ferramenta em destaque vermelho da figura 12 é utilizada para inserir as
+trilhas. Também é possível inserir pressionando a tecla de atalho (w). Na mesma
+figura, o destaque em verde será utilizado para criar pequenos arcos que farão o
+contorno a placa. Na figura 13 podem ser observadas as trilhas (linhas vermelhas)
+adicionadas ao desenho.
+
+**Figura 13 – Linhas de Contorno**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2013%20-%20Linhas%20de%20Contorno.png)
+
+Conforme visto na figura 13, as trilhas estão adicionadas na face superior da
+placa (TopLayer). Lembre-se que é possível acessar as propriedades e fazer ajustes
+importantes como: espessura, comprimento, definição do layer, etc.
+
+Obs.: caso queira desenhar as trilhas na face inferior da placa, utilize
+BottomLayer.
+
+- 4º Passo (Definição dos Layers)
+
+Saber escolher e definir os layers em seu projeto é muito importante. Nos meus
+primeiros projetos de PCBs, com o conhecimento limitado, eu fazia pequenos detalhes
+tentando utilizar layers diferentes, assim ao receber a placa era possível verificar na
+prática o que cada layer resultava no projeto. Na figura 14 é possível visualizar os
+layers para seleção.
+
+**Figura 14 – Layers**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2014%20-%20Layers.png)
+
+
+A seleção dos layers (camadas) é feita conforme apresentado na caixa de
+seleção da figura 14. Para acessá-la selecione as propriedades de cada objeto
+inserido.
+
+Nos itens a seguir, irei descrever brevemente qual a função dos layers
+utilizados no projeto desta placa.
+
+- TopLayer: Utilizado para impressões sólidas (acabamento cobreado) na
+face superior da placa. Exemplo: trilhas, logomarcas e malha de
+aterramento.
+
+- BottomLayer: Utilizado para impressões sólidas (acabamento cobreado) na
+face inferior da placa. Exemplo: Idem TopLayer.
 
 
 
