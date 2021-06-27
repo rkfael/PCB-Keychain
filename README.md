@@ -258,7 +258,7 @@ A qualquer momento é possível gerar uma visualização 2D ou 3D de como seu
 projeto está ficando, assim, você vai fazendo os ajustes necessários.
 
 Neste momento, gostaria de apresentar o projeto do chaveiro finalizado
-mostrando as duas faces da placa (*TopLayer* e *BottomLayer*). Na figura 15 e 16
+mostrando as duas faces da placa (*TopLayer* e *BottomLayer*). Nas figuras 15 e 16
 apresento a face superior e inferior da placa respectivamente.
 
 **Figura 15 – TopLayer**
