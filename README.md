@@ -45,8 +45,8 @@ projeto de *PCB* com um acabamento diferenciado.
 
 ### 1º Passo (Novo Projeto)
 
-Inicie um novo projeto no software. Se você ainda não tem um perfil criado no
-site, basta acessar o *link* <https://easyeda.com> e se cadastrar.
+Inicie um novo projeto no *software*. Se você ainda não tem um perfil criado no
+site, basta acessar [EasyEDA](https://easyeda.com) e se cadastrar.
 Como neste projeto não possuímos um diagrama esquemático, podemos partir
 direto para a definição das linhas de borda da placa, que são chamadas de *Board
 Outline*. Na figura 2 é possível verificar as dimensões definidas para esta placa.
@@ -273,17 +273,16 @@ apresento a face superior e inferior da placa respectivamente.
 
 Disponibilizei o projeto para que você possa gerar os arquivos de fabricação,
 esclarecer eventuais dúvidas e editá-los conforme sua preferência. Confira acessando
-o *link* <https://easyeda.com/rkfael/maxwell_equations_keychain_artigo>
+o [*link*](https://easyeda.com/rkfael/maxwell_equations_keychain_artigo)
 
 ## Fabricação das Placas (*JLCPCB*)
 
-A *JLCPCB* fornece um serviço de excelente qualidade e baixo custo para a
-fabricação das placas. Confira acessando o *link* <https://jlcpcb.com/IRG>
+A [*JLCPCB*](https://jlcpcb.com/IRG) fornece um serviço de excelente qualidade e baixo custo para a
+fabricação das placas.
 
 ## Meu Perfil nas Redes Sociais
 
-Finalizando este artigo, gostaria de apresentar meu perfil no *Instagram*
-(@notas_eletronicas). Aproveite para ver mais algumas das minhas ideias deste tipo
+Finalizando este artigo, gostaria de apresentar meu perfil (@notas_eletronicas) no [*Instagram*](https://www.instagram.com/notas_eletronicas/). Aproveite para ver mais algumas das minhas ideias deste tipo
 de arte feitas em placas de circuito impresso, e claro, não deixe de seguir meu perfil.
 
 
