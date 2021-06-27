@@ -85,6 +85,7 @@ clicando na ferramenta Hole, destacada em verde, porém, prefiro adicionar usand
 pontos de conexões (destaque em vermelho), dessa forma a furação terá um
 acabamento metalizado e caso queira, você pode definir o ponto de conexão como
 sendo o GND (malha de aterramento) da placa.
+
 Agora que você inseriu um furo na placa, precisamos definir algumas
 propriedades para essa furação, bem como: diâmetro interno, diâmetro externo e as
 coordenadas X e Y. Na figura 5 podem ser observadas as propriedades consideradas
@@ -93,3 +94,92 @@ para o furo da placa.
 **Figura 5 – Pad Properties**
 
 ![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%205%20-%20Pad%20Properties.png)
+
+Na figura 5, apresento as definições de minha preferência, mas caso você
+queira mudar alguns parâmetros, apenas tome cuidado para não deixar o furo muito
+próximo da borda da placa, isso evitará que a região do furo fique frágil.
+
+Agora que já temos essas definições, vamos verificar na figura 6 como ficou o
+resultado da placa com a furação adicionada.
+
+**Figura 6 – Furo Adicionado À Placa**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%206%20-%20Furo%20Acionado%20%C3%80%20Placa.png)
+
+Observe na figura 6 que para manter a rigidez da placa, há um espaçamento
+seguro entre o furo e a linha de borda dela.
+
+## 3º Passo (Inserindo Imagens, Textos e Trilhas)
+
+Nesta etapa é hora de você elaborar a sua arte. Insira imagens, textos, trilhas
+(circuitos eletrônicos) harmonizando com o seu desenho. Para ficar mais claro,
+adiante irei apresentar algumas ideias para o tema que escolhi neste artigo.
+
+- 3.1 – Inserindo Imagens
+
+Você pode adicionar diversos formatos de imagem para o seu projeto, porém,
+gosto de utilizar arquivos com o formato .PNG e de preferência que sejam de boa
+resolução. Se você quiser adicionar outras imagens, carregadas com muitos detalhes,
+possivelmente haverá a necessidade de edição destas. Quando necessário, gosto
+muito de utilizar o software Paint para fazer alguns ajustes, pois me atende muito bem.
+
+Vamos adicionar a primeira imagem à PCB. A figura 7 indica a primeira equação
+de Maxwell a ser adicionada.
+
+**Figura 7 – Lei de Gauss do Magnetismo**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%207%20-%20Lei%20de%20Gauss%20do%20Magnetismo.png)
+
+Para inserir a equação da figura 7 na placa, clique sobre o ícone destacado na
+figura 8.
+
+**Figura 8 – Ferramenta de Imagem**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%208%20-%20Ferramento%20de%20Imagem.png)
+
+Feito o passo da figura 8, a tela a seguir deverá ser exibida conforme visto na
+figura 9.
+
+**Figura 9 – Inserir Imagem**
+
+Destaquei na figura 9 os ajustes que serão necessários configurar para cada
+imagem inserida. Note que em vermelho são as dimensões e em verde são os ajustes
+de contorno e acabamento.
+
+- 3.2 – Inserindo Textos
+
+Textos podem ser facilmente inseridos pressionando a tecla de atalho (s) ou
+clicando no destaque da figura 10.
+
+**Figura 10 – Ferramenta de Texto**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2010%20-%20Ferramento%20de%20Texto.png)
+
+Após fazer o passo da figura 10, será necessário ajustar as propriedades do
+texto conforme figura 11.
+
+**Figura 11 – Propriedades de Texto**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2011%20-%20Propriedades%20de%20Texto.png)
+
+Na figura 11 destaquei as principais propriedades que necessitamos configurar.
+No destaque em vermelho será definido em qual layer o texto será gravado, nesse
+caso, TopLayer indica que a gravação será feita na face superior da placa e o material
+será o cobre (mesmo formato de impressão das trilhas). Explicarei isso adiante. No
+destaque em verde é feito o ajuste do tamanho e espessura da fonte. 
+
+- 3.3 – Inserindo Trilhas (Traks)
+
+Uma boa dica é fazer desenhos utilizando as trilhas. Imagine circuitos
+eletrônicos ligando um ponto a outro, ou utilize-as para fazer contornos ao desenho.
+Na figura 12 apresento duas ferramentas que você poderá utilizar.
+
+**Figura 12 – Inserir Trilhas**
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Figura%2012%20-%20Inserir%20Trilhas.png)
+
+
+
+
+
+
