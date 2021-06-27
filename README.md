@@ -31,13 +31,13 @@ desenvolvimento da placa, pois isso possibilitará o conhecimento necessário pa
 cada um crie a arte que desejar.
 
 Então vamos começar a projetar o nosso chaveiro. O software que mais tenho
-familiaridade para o desenvolvimento de PCBs é o EasyEDA, por isso ele foi o
+familiaridade para o desenvolvimento de PCBs é o *EasyEDA*, por isso ele foi o
 escolhido para trabalharmos neste projeto. Conheci o software em uma vídeo aula no
-canal WR Kits no YouTube. Gosto dele por ser fácil de utilizá-lo, também não há
+canal *WR Kits* no *YouTube*. Gosto dele por ser fácil de utilizá-lo, também não há
 necessidade de instalação em seu computador, pode-se utilizar apenas a plataforma
 online para criar e armazenar seus projetos.
 
-## Iniciando o projeto da PCB no EasyEDA
+## Iniciando o projeto da PCB no *EasyEDA*
 
 Nesta etapa vou explicar os principais passos para o desenvolvimento deste
 projeto e também quero mostrar algumas dicas bem legais para você deixar o seu
