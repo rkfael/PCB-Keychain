@@ -282,7 +282,7 @@ fabricação das placas.
 
 ## Meu Perfil nas Redes Sociais
 
-Finalizando este artigo, gostaria de apresentar meu perfil (@notas_eletronicas) no [*Instagram*](https://www.instagram.com/notas_eletronicas/). Aproveite para ver mais algumas das minhas ideias deste tipo
+Finalizando este artigo, gostaria de apresentar meu perfil [@notas_eletronicas](https://www.instagram.com/notas_eletronicas/) no *Instagram*. Aproveite para ver mais algumas das minhas ideias deste tipo
 de arte feitas em placas de circuito impresso, e claro, não deixe de seguir meu perfil.
 
 
