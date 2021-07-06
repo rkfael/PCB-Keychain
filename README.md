@@ -46,7 +46,7 @@ projeto de *PCB* com um acabamento diferenciado.
 ### 1º Passo (Novo Projeto)
 
 Inicie um novo projeto no *software*. Se você ainda não tem um perfil criado no
-site, basta acessar [EasyEDA](https://easyeda.com) e se cadastrar.
+site, basta acessar [*EasyEDA*](https://easyeda.com) e se cadastrar.
 Como neste projeto não possuímos um diagrama esquemático, podemos partir
 direto para a definição das linhas de borda da placa, que são chamadas de *Board
 Outline*. Na figura 2 é possível verificar as dimensões definidas para esta placa.
