@@ -285,7 +285,13 @@ fabricação das placas.
 Finalizando este artigo, gostaria de apresentar meu perfil [@notas_eletronicas](https://www.instagram.com/notas_eletronicas/) no *Instagram*. Aproveite para ver mais algumas das minhas ideias deste tipo
 de arte feitas em placas de circuito impresso, e claro, não deixe de seguir meu perfil.
 
+## Confira Algumas Fotos
 
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Picture_TopLayer.jpg)
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Picture_BottomLayer.jpg)
+
+![showcase](https://github.com/rkfael/PCB-Keychain/blob/main/assets/Picture_Keychains.jpg)
 
 
 
