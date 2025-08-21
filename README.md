@@ -277,12 +277,12 @@ o [*link*](https://easyeda.com/rkfael/maxwell_equations_keychain_artigo)
 
 ## Fabricação das Placas (*JLCPCB*)
 
-A [*JLCPCB*](https://jlcpcb.com/IRG) fornece um serviço de excelente qualidade e baixo custo para a
+A [*JLCPCB*](https://jlcpcb.com/?from=RMW) fornece um serviço de excelente qualidade e baixo custo para a
 fabricação das placas.
 
 ## Meu Perfil nas Redes Sociais
 
-Finalizando este artigo, gostaria de apresentar meu perfil [RKfael - PCB Design](https://www.instagram.com/rkfael_pcb_design/) no *Instagram*. Aproveite para ver mais algumas das minhas ideias deste tipo
+Finalizando este artigo, gostaria de apresentar meu perfil [@rkfaelpcb](https://instagram.com/rkfaelpcb) no *Instagram*. Aproveite para ver mais algumas das minhas ideias deste tipo
 de arte feitas em placas de circuito impresso, e claro, não deixe de seguir meu perfil.
 
 ## Confira Algumas Fotos
